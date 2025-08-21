@@ -21,6 +21,6 @@ Nama saya **Ahmad Fauzi**, Saya adalah seorang pembelajar otodidak yang fokus pa
 
 ### 🚀 Tujuan
 
-Tujuan utama saya adalah untuk terus mengasah kemampuan *coding* dan berkontribusi pada proyek-proyek yang bermanfaat. Jika Anda memiliki saran, pertanyaan, atau ingin berkolaborasi, silakan hubungi saya melalui [Tautan ke profil LinkedIn/Email].
+Tujuan utama saya adalah untuk terus mengasah kemampuan *coding* dan berkontribusi pada proyek-proyek yang bermanfaat. Jika Anda memiliki saran, pertanyaan, atau ingin berkolaborasi, silakan hubungi saya melalui [Tautan ke profil Instagram/Email].
 
 Terima kasih telah berkunjung!
