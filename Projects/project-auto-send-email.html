@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vuzinet // Project: Job Application sender</title>
+    <link rel="icon" href="https://raw.githubusercontent.com/dependabot-pr/Static-Files/main/Images/Icon/Code.gif" type="image/gif">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="scanlines"></div>
+    <div class="noise"></div>
+    <div id="matrix-background"></div>
+
+    <div class="container">
+        <header>
+            <div class="logo-glitch" data-text="VUZINET [OZI]">VUZINET [OZI]</div>
+            <nav>
+                <a href="../index.html#about" class="nav-link">_about</a>
+                <a href="../index.html#skills" class="nav-link">_skills</a>
+                <a href="../index.html#projects" class="nav-link">_projects</a>
+                <a href="../index.html#contact" class="nav-link">_contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <div class="project-detail-container">
+                
+                <a href="../index.html#projects" class="back-link">&lt; back_to_projects</a>
+                
+                <h2 class="section-title" data-text="[ Project: GhostNet ]">[ Project: Job Application sender ]</h2>
+
+                <div class="project-meta">
+                    <div><span>STATUS</span>: [ONLINE]</div>
+                    <div><span>TYPE</span>: [Otomatisasi Aplikasi Desktop/Skrip]</div>
+                    <div><span>LANGUAGE</span>: [JavaScript (Node.js)]</div>
+                    <div><span>LIBRARIES</span>: [nodemailer, cron]</div>
+                    <div><span>REPO</span>: [<a href="https://github.com/vuzinet/job-application-sender" target="_blank">github.com/vuzinet/job-application-sender</a>]</div>
+                </div>
+
+                <div class="content-box">
+                    <h3>// OBJECTIVE</h3>
+                    <p>
+                        Proyek ini adalah skrip sederhana yang dirancang untuk mengotomatisasi proses pengiriman email lamaran kerja. Tujuannya adalah untuk mengirim email lamaran secara otomatis setiap 5 menit ke alamat email perusahaan yang ditargetkan, sehingga menghemat waktu dan tenaga.
+                    </p>
+                    <h3>// KEY_FEATURES</h3>
+                    <ul>
+                        <li><span class="keyword">></span> Mengirim email dengan lampiran CV dan surat lamaran.</li>
+                        <li><span class="keyword">></span> Jadwal pengiriman dapat diatur (misal: setiap 5 menit).</li>
+                        <li><span class="keyword">></span> Menggunakan SMTP untuk pengiriman email yang stabil.</li>
+                        <li><span class="keyword">></span> Konfigurasi email penerima dan isi email yang mudah diubah.</li>
+                    </ul>
+                </div>
+                
+                <div class="code-snippet-box">
+                    <div class="code-header">
+                        <span class="button red"></span><span class="button yellow"></span><span class="button green"></span>
+                        <span class="code-title">/sendmail.js</span>
+                    </div>
+                    <pre><code><span class="code-comment">// Fungsi kirim email</span>
+<span class="code-keyword">function</span> kirimEmail <span class="code-keyword">(to) {</span>
+<span class="code-keyword">const</span> mailOptions <span class="code-keyword">= {</span>
+<span class="code-keyword">from</span> : EMAIL,
+<span class="code-keyword">to:</span>  to,
+
+<span class="code-keyword">subject:</span> <span class="code-function">"Lamaran Pekerjaan",
+  <span class="code-keyword">text:</span> "Dengan hormat, terlampir CV saya untuk pertimbangan Bapak/Ibu HRD.",<span class="code-keyword">
+    attachments:<span class="code-keyword"> [</span>
+     }
+    filename:<span class="code-keyword">"CV-Kamu.pdf",</span>
+  <span class="code-keyword">path:</span> "./CV-Kamu.pdf",
+  <span class="code-keyword"> </span> },
+ ],</code></pre>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Connection to host stable... <span id="logout-timer"></span></p>
+            <p>&copy; 2025 oziqen. All bits reserved.</p>
+        </footer>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+</body>
+</html>

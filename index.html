@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vuzinet // Digital Portofolio</title>
+    <link rel="icon" href="https://raw.githubusercontent.com/dependabot-pr/Static-Files/main/Images/Icon/Code.gif" type="image/gif">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="scanlines"></div>
+    <div class="noise"></div>
+    <div id="matrix-background"></div>
+
+    <div class="container">
+        <header>
+            <div class="logo-glitch" data-text="VUZINET [OZI]">VUZINET [OZI]</div>
+            <nav>
+                <a href="#about" class="nav-link">_about</a>
+                <a href="#skills" class="nav-link">_skills</a>
+                <a href="#projects" class="nav-link">_projects</a>
+                <a href="#contact" class="nav-link">_contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <section id="terminal-section">
+                <div id="terminal">
+                    <div id="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="button red"></span>
+                            <span class="button yellow"></span>
+                            <span class="button green"></span>
+                        </div>
+                        <div class="terminal-title">user@localhost: ~</div>
+                    </div>
+                    <div id="terminal-body" onclick="document.getElementById('terminal-input').focus();">
+                        <div id="terminal-output"></div>
+                        <div class="terminal-prompt">
+                            <span class="prompt-user">localhost@user.io</span>
+                            <span class="prompt-colon">:</span>
+                            <span class="prompt-path">~</span>
+                            <span class="prompt-char">$</span>
+                            <input type="text" id="terminal-input" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                            <span class="cursor">_</span>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="content-section hidden">
+                <h2 class="section-title" data-text="[ About Me ]">[ About Me ]</h2>
+                <div class="content-box">
+                    <p>
+    <span class="keyword">const</span> ahmadfauzi = { <br>
+    &nbsp;&nbsp;nama: <span class="string">"Ahmad Fauzi"</span>,<br>
+    &nbsp;&nbsp;namaPanggilan: <span class="string">"ozi"</span>,<br>
+    &nbsp;&nbsp;pronouns: <span class="string">"he/him"</span>,<br>
+    &nbsp;&nbsp;skills: [<span class="string">"HTML"</span>, <span class="string">"CSS"</span>, <span class="string">"JavaScript"</span>, <span class="string">"Python"</span>],<br>
+    &nbsp;&nbsp;specialization: <span class="string">"Pemahaman Dasar Pemrograman"</span>,<br>
+    &nbsp;&nbsp;currentFocus: <span class="string">"Belajar coding dari nol dan meningkatkan pemahaman konsep dasar."</span>,<br>
+    &nbsp;&nbsp;motto: <span class="string">"Tidak bisa coding dari nol? Mari belajar bersama AI."</span><br>
+    };
+</p>
+<p>Saya Ahmad Fauzi, Saya sedang dalam perjalanan untuk memahami dunia coding. Meskipun saya tidak bisa membuat kode dari nol tanpa bantuan, saya terus belajar untuk menguasai HTML, CSS, JavaScript, dan Python. Tujuan saya adalah membangun pemahaman yang kuat dan menjadi lebih mandiri dalam setiap proyek. Setiap baris kode adalah langkah menuju penguasaan, dan saya percaya proses belajar tidak pernah berakhir.</p>
+
+                </div>
+            </section>
+
+            <section id="skills" class="content-section hidden">
+                <h2 class="section-title" data-text="[ Skillset ]">[ Skillset ]</h2>
+<div class="content-box">
+    <div class="skills-grid">
+        <div class="skill-item">
+            <h3>Bahasa & Dasar-dasar</h3>
+            <ul>
+                <li>HTML <span># Sedang Belajar</span></li>
+                <li>CSS <span># Sedang Belajar</span></li>
+                <li>JavaScript <span># Sedang Belajar</span></li>
+                <li>Python <span># Sedang Belajar</span></li>
+            </ul>
+        </div>
+        <div class="skill-item">
+            <h3>Fokus Pembelajaran</h3>
+            <ul>
+                <li>Dasar-dasar Logika Pemrograman <span># Fokus Utama</span></li>
+                <li>Membuat Proyek Sederhana <span># Fokus Utama</span></li>
+                <li>Mencari Solusi dengan Bantuan AI <span># Mahir (dalam mencari)</span></li>
+            </ul>
+        </div>
+        <div class="skill-item">
+            <h3>Alat yang Digunakan</h3>
+            <ul>
+                <li>A Code (android) <span># Sering Dipakai</span></li>
+                <li>Browser DevTools <span># Sering Dipakai</span></li>
+                <li>Git / Github <span># Sedang Belajar</span></li>
+            </ul>
+        </div>
+        <div class="skill-item">
+            <h3>Tantangan Selanjutnya</h3>
+            <ul>
+                <li>Membuat Kode Sendiri Tanpa AI <span># Tujuan Jangka Panjang</span></li>
+                <li>Memahami Konsep OOP <span># Rencana Pembelajaran</span></li>
+            </ul>
+        </div>
+    
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="content-section hidden">
+                <h2 class="section-title" data-text="[ Projects ]">[ Projects ]</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <span class="folder-icon">📁</span>
+                            <h3>Project: Phising Dana Giveaway</h3>
+                        </div>
+                        <p>Sebuah proyek pendidikan yang berjalan di Termux, mensimulasikan skema phishing Dana Giveaway palsu.</p>
+                        <div class="project-tags">
+                            <span>#Termux</span>
+                            <span>#C</span>
+                            <span>#PhishingAwareness</span>
+                        </div>
+                        <a href="Projects/project-Dana-Giveaway.html" class="project-link">view_source &gt;</a>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <span class="folder-icon">📁</span>
+                            <h3>Project: Job Application Sender</h3>
+                        </div>
+                        <p>Sebuah skrip sederhana yang mengotomatisasi pengiriman email lamaran kerja ke perusahaan impian.</p>
+                        <div class="project-tags">
+                            <span>#Automation</span>
+                            <span>#JavaScript</span>
+                            <span>#Node.js</span>
+                        </div>
+                        <a href="Projects/project-auto-send-email.html" class="project-link">view_source &gt;</a>
+                    </div>
+                    
+            </section>
+
+            <section id="contact" class="content-section hidden">
+                <h2 class="section-title" data-text="[ Get In Touch ]">[ Get In Touch ]</h2>
+                <div class="content-box">
+                    <p>Punya pertanyaan atau butuh bantuan? Jangan ragu untuk hubungi saya. Mari kita belajar dan selesaikan masalah bersama-sama.</p>
+
+                    <div class="contact-links">
+                        <a href="https://github.com/vuzinet">[ GitHub ]</a>
+                        <a href="https://t.me/@vuzinet">[ Telegram ]</a>
+                        <a href="https://tiktok.com/@vuzinet">[ Tik Tok ]</a>
+                        <a href="https://wa.me/6285780024319">[ WhatssApp ]</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Initiating logout sequence... <span id="logout-timer"></span></p>
+            <p>&copy; 2025 vuzinet. All bits reserved.</p>
+        </footer>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
