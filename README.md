@@ -15,7 +15,7 @@ Nama saya **Ahmad Fauzi**, Saya adalah seorang pembelajar otodidak yang fokus pa
 | Proyek | Deskripsi | Teknologi |
 | :--- | :--- | :--- |
 | **KirimLamaranOtomatis** | Sebuah skrip yang mengotomatisasi proses pengiriman email lamaran kerja. | `Node.js` `JavaScript` |
-| **job-application-sender** | Kirim email otomatis setiap 5 menit | `Termux` |
+| **https://github.com/vuzinet/job-application-sender** | Kirim email otomatis setiap 5 menit | `Termux` |
 
 ---
 
